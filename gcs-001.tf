@@ -1,7 +1,7 @@
 provider "google" {
   project     = "enduring-art-312620"
   region      = "europe-west2"
-  zone        = "europe-west2-a"
+  zone        = "europe-west2-b"
 }
 
 resource "google_storage_bucket" "bucket-03" {
