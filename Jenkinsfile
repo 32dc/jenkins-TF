@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo 'running terraform init...'
                 sh 'terraform init'
-            }        
+            } 
+        }    
     }
 }
