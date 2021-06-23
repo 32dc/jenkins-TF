@@ -5,9 +5,9 @@ provider "google" {
   zone        = "europe-west2-b"
 }
 
-resource "google_storage_bucket" "bucket-03" {
+resource "google_storage_bucket" "bucket-01" {
   project       = "enduring-art-312620"
-  name          = "module-bucket-okati1"
+  name          = "module-bucket-okati"
   location      = "europe-west2"
   force_destroy = true
   storage_class = "REGIONAL"
