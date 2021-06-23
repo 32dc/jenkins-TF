@@ -15,3 +15,15 @@ resource "google_storage_bucket" "bucket-01" {
     enabled = true
   }
 }
+
+resource "google_storage_bucket" "bucket-02" {
+  project       = "enduring-art-312620"
+  name          = "module-bucket-rendui"
+  location      = "europe-west2"
+  force_destroy = true
+  storage_class = "REGIONAL"
+  versioning {
+    enabled = true
+  }
+}
+
