@@ -18,7 +18,7 @@ resource "google_storage_bucket" "bucket-01" {
 
 resource "google_storage_bucket" "bucket-02" {
   project       = "enduring-art-312620"
-  name          = "module-bucket-rendui"
+  name          = "module-bucket-rendu"
   location      = "europe-west2"
   force_destroy = true
   storage_class = "REGIONAL"
