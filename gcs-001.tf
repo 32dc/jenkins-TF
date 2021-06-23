@@ -1,6 +1,6 @@
 provider "google" {
   project     = "enduring-art-312620"
-  credentials = "key.json"
+#  credentials = "key.json"
   region      = "europe-west2"
   zone        = "europe-west2-b"
 }
