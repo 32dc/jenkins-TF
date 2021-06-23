@@ -7,7 +7,7 @@ provider "google" {
 
 resource "google_storage_bucket" "bucket-03" {
   project       = "enduring-art-312620"
-  name          = "module-bucket-okti"
+  name          = "module-bucket-okati"
   location      = "europe-west2"
   force_destroy = true
   storage_class = "REGIONAL"
